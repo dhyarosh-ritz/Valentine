@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Proposal 💖</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <div>
+            <h1 class="header_text" id="headerText">Will you be my valentine? 💕💕</h1>
+        </div>
+
+        <div class="gif_container">
+            <img id="valentineGif" style="margin-top: 50px;" src="./dudu.gif" alt="Cute animated illustration">
+        </div>
+
+        <div class="buttons">
+            <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+            <button class="btn" id="noButton" onclick="firstNoClick()">No</button>
+        </div>
+    </div>
+
+    <!-- Background music -->
+    <audio id="bgMusic" loop>
+        <source src="./audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="bgMusic_yes" loop>
+        <source src="./audio_yes.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
+
+
+
